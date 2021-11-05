@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <TextView
+        android:id="@+id/textPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:text="Introduction"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_fruits_diary_is_a_mobile_application_where_you_can_store_the_number_of_fruits_you_have_eaten_each_day_the_user_is_able_to_add_date_entries_and_for_each_date_choose_the_fruits_eaten_on_that_specific_day_the_application_consumes_a_webservice_where_the_current_entries_and_fruits_are_located_there_are_no_requirements_or_limitations_other_than_the_requirements_listed_below_under_software_requirements"
+        app:layout_constraintTop_toBottomOf="@+id/textPrompt"
+        app:layout_constraintStart_toStartOf="@+id/textPrompt"
+        app:layout_constraintEnd_toEndOf="@+id/textPrompt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
